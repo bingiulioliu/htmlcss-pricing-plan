@@ -113,3 +113,21 @@ CARDS
     padding: 5px;
     border-radius: 10px;
 }
+
+    /* ==================================
+    BUTTON
+    ================================== */
+.cta-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 50px;
+    border-radius: 15px;
+    width: 80%;
+    border: 0px;
+    background-color: rgb(102, 0, 255);
+    color: white;
+    margin: 0 auto 30px auto;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 30px;
+}
