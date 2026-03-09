@@ -64,12 +64,52 @@ CARDS
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    margin: 20px;
 }
 .plan-title {
     flex-basis: calc((100% - (2 * 20px)) / 3);
     min-width: 250px;
     flex-grow: 1;
-    border: 1px solid gray;
-    box-shadow: 5px gray;
-    border-radius: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 5px lightgray;
+    padding: 30px;
+}
+
+    /* ==================================
+    PRICE
+    ================================== */
+.plan-price {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 3px;
+    margin-top: 15px;
+}
+.currency {
+    font-weight: 700;
+    font-size: 25px;
+}
+.amount {
+    font-weight: 800;
+    font-size: 40px;
+}
+.period {
+    color: grey;
+}
+
+    /* ==================================
+    DISCOUNT
+    ================================== */
+.plan-discount {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 3px;
+    margin-top: 15px;
+}
+.discount-rate {
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 10px;
 }
