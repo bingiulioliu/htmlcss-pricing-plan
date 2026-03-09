@@ -175,5 +175,4 @@ CARDS
     flex-basis: calc(100% / 2) - (10px) / 2;
     min-width: 45%;
     flex-grow: 1;
-    max-width: 100%;
 }
