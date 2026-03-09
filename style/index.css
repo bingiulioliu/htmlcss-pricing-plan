@@ -162,3 +162,18 @@ CARDS
 .plan-cards .plan-title:nth-child(2) .period {
     color: white;
 }
+
+    /* ==================================
+    ULTIMATE WRAP
+    ================================== */
+.plan-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 15px;
+}
+.feature-item {
+    flex-basis: calc(100% / 2) - (10px) / 2;
+    min-width: 45%;
+    flex-grow: 1;
+    max-width: 100%;
+}
