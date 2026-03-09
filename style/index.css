@@ -45,17 +45,31 @@ header {
     padding: 20px;
 }
 .switches {
-    justify-content: flex-end;
-    align-items: flex-end;
+    margin-left: auto;
+}
+.header-container {
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.plan-intro {
+    flex-grow: 1;
+    min-width: 300px;
 }
 
 /* ==================================
 CARDS
 ================================== */
 .plan-cards {
-    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 .plan-title {
-    box-shadow: 10px black;
-    border: 1px solid black;
+    flex-basis: calc((100% - (2 * 20px)) / 3);
+    min-width: 250px;
+    flex-grow: 1;
+    border: 1px solid gray;
+    box-shadow: 5px gray;
+    border-radius: 5px;
 }
