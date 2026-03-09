@@ -2,14 +2,18 @@
 RESET
 ================================== */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-	margin: 0 auto;
-	font-family: 'sans-serif';
+    font-family: 'sans-serif';
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 /* ==================================
@@ -18,9 +22,40 @@ UTILITIES
 .bg-purple {
     background-color: rgb(102, 0, 255);
 }
+.c-grey {
+    color: grey;
+}
 
+.d-flex-x {
+    display: flex;
+}
+.d-flex-y {
+    display: flex;
+    flex-direction: column;
+}
 /* ==================================
 TOGGLE
 ================================== */
 
 
+/* ==================================
+HEADER
+================================== */
+header {
+    padding: 20px;
+}
+.switches {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* ==================================
+CARDS
+================================== */
+.plan-cards {
+    padding: 30px;
+}
+.plan-title {
+    box-shadow: 10px black;
+    border: 1px solid black;
+}
