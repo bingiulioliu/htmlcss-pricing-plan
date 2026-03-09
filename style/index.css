@@ -166,13 +166,14 @@ CARDS
     /* ==================================
     ULTIMATE WRAP
     ================================== */
-.plan-features {
+.ultimate-features {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px 15px;
+    gap: 0 15px;
 }
-.feature-item {
-    flex-basis: calc(100% / 2) - (10px) / 2;
-    min-width: 45%;
+.ultimate-item {
+    flex-basis: calc(100% / 2) - ((10px) / 2);
+    min-width: calc(50% - 25px);
     flex-grow: 1;
+    max-width: 100%;
 }
